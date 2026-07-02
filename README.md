@@ -109,7 +109,8 @@ at *[Zenodo/figshare DOI — fill in]*.
 
 ## Code availability & citation
 
-This code is archived at **[Zenodo DOI — fill in after upload]**. Please cite the
+This code is archived at Zenodo: **https://doi.org/10.5281/zenodo.21120015**
+and developed at https://github.com/SeoyeonLee-rosee/arctic-1km-sat. Please cite the
 associated manuscript and the archived code release.
 
 ## License

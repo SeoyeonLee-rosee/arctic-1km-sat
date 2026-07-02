@@ -5,8 +5,8 @@
 **Code availability**
 > The code used to train the machine-learning air-temperature downscaling model
 > and to generate all analyses and figures in this study is openly available at
-> Zenodo (https://doi.org/10.5281/zenodo.XXXXXXX) and was developed at
-> https://github.com/<사용자명>/<저장소명>.
+> Zenodo (https://doi.org/10.5281/zenodo.21120015) and was developed at
+> https://github.com/SeoyeonLee-rosee/arctic-1km-sat.
 
 **Data availability**
 > All primary datasets are publicly available from their original providers:
@@ -15,10 +15,15 @@
 > ERA5 from the Copernicus Climate Change Service; MERRA-2 from NASA GMAO;
 > CPC and GHCN-CAMS from NOAA PSL; and ETOPO 2022 from NOAA NCEI. The
 > machine-learning-derived surface-air-temperature product generated in this
-> study is archived at Zenodo (https://doi.org/10.5281/zenodo.XXXXXXX).
+> study is archived at Zenodo (https://doi.org/10.5281/zenodo.YYYYYYY  ← 산출물용 별도 DOI, 아래 참고).
 > The in-situ station air-temperature observations used for training and
 > validation are from the CRU station archive (Climatic Research Unit,
 > University of East Anglia).
+
+**⚠️ 데이터 산출물(1-km SAT) 아카이브 — 남은 1가지**
+코드 DOI(`zenodo.21120015`)와 **별개로**, 직접 생산한 1-km SAT 산출물은 데이터로 따로 올려 DOI를 받는 게 좋습니다(Nature 데이터 정책). 두 방법:
+- (A) **Zenodo에 새 업로드**: zenodo.org → *New upload* → SAT nc/npy 파일 드래그 → 저자·제목 입력 → Publish → 새 DOI(위 `YYYYYYY` 자리에 기입). 파일이 매우 크면 용량 한도(기본 50GB) 확인.
+- (B) 용량이 너무 크면 기관 저장소나 "corresponding author on reasonable request"로 기재(단, Nature는 저장소 등록을 선호).
 
 ---
 
