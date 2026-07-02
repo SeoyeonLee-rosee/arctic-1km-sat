@@ -16,7 +16,9 @@
 > CPC and GHCN-CAMS from NOAA PSL; and ETOPO 2022 from NOAA NCEI. The
 > machine-learning-derived surface-air-temperature product generated in this
 > study is archived at Zenodo (https://doi.org/10.5281/zenodo.XXXXXXX).
-> In-situ station observations are available from [제공기관].
+> The in-situ station air-temperature observations used for training and
+> validation are from the CRU station archive (Climatic Research Unit,
+> University of East Anglia).
 
 ---
 

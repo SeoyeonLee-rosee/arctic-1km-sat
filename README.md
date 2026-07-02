@@ -1,6 +1,8 @@
-# Machine-learning downscaling of Arctic air temperature and its link to snow cover and vegetation
+# A 1-km surface air temperature reconstruction reveals terrain-driven thermal heterogeneity and ecosystem responses across Arctic land
 
-Code for reproducing the analyses and figures in *[manuscript title — fill in]*.
+Code for reproducing the analyses and figures in Lee et al., *"A 1-km surface air
+temperature reconstruction reveals terrain-driven thermal heterogeneity and
+ecosystem responses across Arctic land"* (submitted to *Nature Communications*).
 
 This repository contains the full workflow: (1) a machine-learning model that
 downscales/estimates near-surface air temperature (SAT) from MODIS satellite
@@ -91,16 +93,19 @@ All primary datasets are publicly available from their original providers and ar
 
 | Dataset | Source |
 |---|---|
-| MODIS (MOD10A2 snow, MOD11A2 LST, MOD13A3 NDVI, MOD17 GPP, MOD15 FPAR, MYD*) | NASA LP DAAC |
-| CRU TS4.06 gridded temperature | Climatic Research Unit, University of East Anglia |
+| MODIS LST (MOD11A2 / MYD11A2), NDVI (MOD13A3 / MYD13A3), land cover (MCD12Q1) | NASA Earthdata / LP DAAC |
+| MODIS GPP (MOD17A2HGF, C6.1) | NASA Earthdata / LP DAAC |
+| MODIS snow cover (MOD10A2, C6.1) → SCE | NSIDC DAAC |
+| CRU TS v4.06 station & gridded temperature | Climatic Research Unit, University of East Anglia |
 | ERA5 reanalysis | Copernicus Climate Change Service (C3S) / ECMWF |
 | MERRA-2 | NASA GMAO |
-| CPC, GHCN-CAMS | NOAA Physical Sciences Laboratory |
-| ETOPO 2022 topography | NOAA NCEI |
-| In-situ station air-temperature observations | *[fill in provider]* |
+| CPC & GHCN-CAMS land-surface air temperature | NOAA Physical Sciences Laboratory |
+| ETOPO 2022 global relief (topography) | NOAA NCEI |
 
-Derived products (e.g. the ML-downscaled SAT grids) are archived at
-*[Zenodo/figshare DOI — fill in]*.
+The in-situ station air-temperature observations used to train and validate the
+model are from the CRU station archive (Climatic Research Unit, University of East
+Anglia). The ML-reconstructed 1-km SAT product generated in this study is archived
+at *[Zenodo/figshare DOI — fill in]*.
 
 ## Code availability & citation
 
