@@ -104,8 +104,9 @@ All primary datasets are publicly available from their original providers and ar
 
 The in-situ station air-temperature observations used to train and validate the
 model are from the CRU station archive (Climatic Research Unit, University of East
-Anglia). The ML-reconstructed 1-km SAT product generated in this study is archived
-at *[Zenodo/figshare DOI — fill in]*.
+Anglia). The ML-reconstructed 1-km SAT product generated in this study will be
+deposited in a public repository (Zenodo) upon publication; it is available from
+the corresponding author on reasonable request in the meantime.
 
 ## Code availability & citation
 

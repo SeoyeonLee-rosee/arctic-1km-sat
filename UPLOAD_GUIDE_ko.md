@@ -15,15 +15,16 @@
 > ERA5 from the Copernicus Climate Change Service; MERRA-2 from NASA GMAO;
 > CPC and GHCN-CAMS from NOAA PSL; and ETOPO 2022 from NOAA NCEI. The
 > machine-learning-derived surface-air-temperature product generated in this
-> study is archived at Zenodo (https://doi.org/10.5281/zenodo.YYYYYYY  ← 산출물용 별도 DOI, 아래 참고).
+> will be deposited in a public repository (Zenodo) upon publication and is
+> available from the corresponding author on reasonable request in the meantime.
 > The in-situ station air-temperature observations used for training and
 > validation are from the CRU station archive (Climatic Research Unit,
 > University of East Anglia).
 
-**⚠️ 데이터 산출물(1-km SAT) 아카이브 — 남은 1가지**
-코드 DOI(`zenodo.21120015`)와 **별개로**, 직접 생산한 1-km SAT 산출물은 데이터로 따로 올려 DOI를 받는 게 좋습니다(Nature 데이터 정책). 두 방법:
-- (A) **Zenodo에 새 업로드**: zenodo.org → *New upload* → SAT nc/npy 파일 드래그 → 저자·제목 입력 → Publish → 새 DOI(위 `YYYYYYY` 자리에 기입). 파일이 매우 크면 용량 한도(기본 50GB) 확인.
-- (B) 용량이 너무 크면 기관 저장소나 "corresponding author on reasonable request"로 기재(단, Nature는 저장소 등록을 선호).
+**데이터 산출물(1-km SAT) 아카이브 — 게재 확정 시 진행 예정**
+전체 `data/`가 2TB로 매우 커서, 데이터 DOI는 **게재 확정(accept) 후**에 진행하기로 함.
+그때 할 일: 1-km SAT를 압축 netCDF로 묶어 Zenodo(핵심 산출물) 또는 PANGAEA(전체 시계열)에 업로드 →
+새 DOI를 위 Data availability 문구에 추가. (패키징 스크립트는 그때 만들어 드립니다.)
 
 ---
 
