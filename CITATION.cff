@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "A 1-km surface air temperature reconstruction reveals terrain-driven thermal heterogeneity and ecosystem responses across Arctic land"
+type: software
+authors:
+  - family-names: Lee
+    given-names: Seoyeon
+    affiliation: "Korea Institute of Science and Technology (KIST)"
+license: MIT

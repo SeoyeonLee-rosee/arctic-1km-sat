@@ -1,0 +1,22 @@
+{
+  "title": "A 1-km surface air temperature reconstruction reveals terrain-driven thermal heterogeneity and ecosystem responses across Arctic land",
+  "description": "Code for the machine-learning-based 1-km monthly surface air temperature (SAT) reconstruction over Arctic land (north of 60N, 2000-2022) and the downstream analyses linking SAT with snow-cover end date (SCE), gross primary productivity (GPP), and elevation. Accompanies the Nature Communications manuscript.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Lee, Seoyeon",
+      "affiliation": "Korea Institute of Science and Technology (KIST)"
+    }
+  ],
+  "keywords": [
+    "Arctic",
+    "surface air temperature",
+    "machine learning",
+    "data fusion",
+    "MODIS",
+    "downscaling",
+    "snow cover",
+    "gross primary productivity"
+  ]
+}
