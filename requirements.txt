@@ -1,0 +1,25 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+
+# Machine learning (SAT downscaling model)
+scikit-learn
+xgboost
+lightgbm
+joblib
+
+# Geospatial / climate data I/O and plotting
+cartopy
+shapely
+netCDF4
+xarray
+pyhdf
+statsmodels
+python-dateutil
+
+# Optional (used by a few analysis scripts only)
+# scitools-iris
+# nctoolkit

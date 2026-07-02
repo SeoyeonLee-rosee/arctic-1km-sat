@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Jupyter notebook outputs are cleared before commit; keep it that way
+# (run: jupyter nbconvert --clear-output --inplace 00_ml_pipeline/*.ipynb)
+
+# Data & outputs (NOT tracked — see README "Data availability")
+data/
+../data/
+*.npy
+*.nc
+*.hdf
+*.HDF
+*.csv
+*.pickle
+*.pkl
+*.joblib
+
+# Figures
+*.png
+*.pdf
+*.eps
+*.jpg
+FIG/
+FIGs/
+FIG_fin/
+
+# OS / editor
+.DS_Store
+.vscode/
+*.swp
